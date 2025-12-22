@@ -1,8 +1,11 @@
+[build]
+  # Command to build your Vite app
+  command = "npm run build"
+  # Tell Netlify to serve the build output
+  publish = "dist"
+
 [[redirects]]
+  # SPA redirect: always serve index.html for client-side routes
   from = "/*"
   to = "/index.html"
   status = 200
-  [build]
-  publish = "dist"
-  command = "npm run build"
-
