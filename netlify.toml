@@ -1,6 +1,7 @@
 [build]
+  base = "."               # root folder
   command = "npm run build"
-  publish = "client/dist"
+  publish = "client/dist"  # folder created by build script
 
 [[redirects]]
   from = "/*"
