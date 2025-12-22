@@ -1,6 +1,7 @@
 [build]
+  base = "."                      # run in repo root
   command = "npm install && npm run build"
-  publish = "client/dist"
+  publish = "client/dist"         # publish folder created after build
 
 [[redirects]]
   from = "/*"
