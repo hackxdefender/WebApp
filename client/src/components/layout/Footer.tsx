@@ -56,15 +56,15 @@ export function Footer() {
             <ul className="space-y-4 text-sm text-muted-foreground">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0" />
-                <span>123 Security Blvd, Cyber City<br />Tech District, CA 94043</span>
+                <span>101, Silicon Velly, CA<br />Tech District, CA 94043</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
-                <a href="mailto:secure@cybersecure.com" className="hover:text-white">secure@cybersecure.com</a>
+                <a href=aashutos.katare@gmail.com" className="hover:text-white">aashutos.katare@gmail.com</a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
-                <a href="tel:+15550123456" className="hover:text-white">+1 (555) 012-3456</a>
+                <a href="tel:+15550123456" className="hover:text-white">+9100000000000</a>
               </li>
             </ul>
           </div>
@@ -72,7 +72,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-white/5 mt-12 pt-8 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} CyberSecure. All rights reserved.
+          © {new Date().getFullYear()} HackX Defender. All rights reserved.
         </div>
       </div>
     </footer>
