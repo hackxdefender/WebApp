@@ -26,7 +26,7 @@ export function Navbar() {
               <Shield className="w-8 h-8 text-primary" />
             </div>
             <span className="font-display font-bold text-xl tracking-wide text-white">
-              CYBER<span className="text-primary">SECURE</span>
+              HackX<span className="text-primary">Defender</span>
             </span>
           </Link>
 
