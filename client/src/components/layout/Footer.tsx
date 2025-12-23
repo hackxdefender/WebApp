@@ -12,7 +12,7 @@ export function Footer() {
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-primary" />
               <span className="font-display font-bold text-lg text-white">
-                CYBER<span className="text-primary">SECURE1</span>
+                HackX<span className="text-primary">Defender</span>
               </span>
             </div>
             <p className="text-muted-foreground leading-relaxed text-sm">
